@@ -4,6 +4,9 @@ description: "Пошаговые инструкции, RPC-ресурсы и ч�
 url: "https://briarich.github.io/pi-squared-guideline/"     # Адрес вашего GitHub Pages
 
 # ====== Внешний вид ======
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 theme: minimal                          # Стандартная встроенная тема
 logo: "/images/logo.png"                 # Логотип (путь к файлу в репозитории)
 show_downloads: false                    # Убрать кнопку «Download»
