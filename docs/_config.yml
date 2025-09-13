@@ -1,5 +1,33 @@
-remote_theme: pages-themes/cayman@v0.2.0
+# ====== Основные настройки ======
+title: "Гайды по дропхантингу"         # Название сайта (отображается в шапке)
+description: "Пошаговые инструкции, RPC-ресурсы и чеклисты для крипто-дропов"
+url: "https://briarich.github.io/pi-squared-guideline/"     # Адрес вашего GitHub Pages
+
+# ====== Внешний вид ======
+theme: minimal                          # Стандартная встроенная тема
+logo: "/images/logo.png"                 # Логотип (путь к файлу в репозитории)
+show_downloads: false                    # Убрать кнопку «Download»
+
+# ====== Навигация ======
+# Эти ссылки появятся в верхнем меню
+nav:
+  - name: "Главная"
+    link: /
+  - name: "Обо мне"
+    link: /about
+  - name: "Гайды"
+    link: /guides
+  - name: "Контакты"
+    link: /contacts
+
+# ====== Соцсети ======
+social_links:
+  twitter: "https://x.com/Tyra99589788"
+  telegram: "https://t.me/Tyra99589788"
+  github: "https://github.com/briarich/"
+
+# ====== Дополнительно ======
+markdown: kramdown                       # Обработка Markdown
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: [Pi Squared]
-description: [Guides and lifehacks for Pi Squared project work]
+  - jekyll-feed                           # RSS (по желанию)
+  - jekyll-seo-tag                         # SEO метаданные
